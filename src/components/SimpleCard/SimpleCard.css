@@ -1,0 +1,40 @@
+.simple-card-value {
+  font-size: 2rem;
+  font-weight: 800;
+  width: 40px;
+  height: 50px;
+  text-align: center;
+}
+
+.top-symbol {
+  width: 40px;
+  height: 40px;
+}
+
+.main-symbol {
+  width: 80px;
+  height: 80px;
+}
+
+.main-symbol-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.simple-card-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  padding-right: 10px;
+}
+
+.simple-card-bottom-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}

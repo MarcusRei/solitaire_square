@@ -1,0 +1,8 @@
+.card-symbol-container {
+  position: relative;
+}
+
+.card-symbol {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,42 @@
+.ten-pattern {
+  padding: 3rem 0;
+  position: relative;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pattern-symbol-container {
+  width: 40px;
+  height: 40px;
+}
+
+.ten-pattern-section {
+  height: 100%;
+  width: 100%;
+}
+
+.ten-pattern-section-container {
+  display: flex;
+  align-items: center;
+}
+
+.ten-pattern-line-one {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ten-pattern-line-two {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.ten-pattern-line-three {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

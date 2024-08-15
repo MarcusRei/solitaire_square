@@ -1,0 +1,19 @@
+.board {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  min-width: 192px;
+  min-height: 10px;
+  outline: 1px solid red;
+  position: relative;
+}
+
+.card-holder {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
