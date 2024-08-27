@@ -2,11 +2,9 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,17 +12,19 @@
   --accent-color: #591dc0;
   --card-width: 192px;
   --card-height: 240px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 body {
   margin: 0;
-  display: flex;
-  min-width: 320px;
 }
 
 h1 {
   font-size: 2rem;
   line-height: 1.1;
+  margin: 0 0 1rem 0;
 }
 
 button {
@@ -44,10 +44,6 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-.button-bar {
-  display: flex;
-  gap: 0.5rem;
 }
 
 .center {
@@ -71,6 +67,10 @@ button:focus-visible {
   padding: 0.5rem 0.5rem;
   width: 11rem;
   height: 14rem;
+}
+
+.card-base:hover {
+  background: rgba(255, 255, 255, 0.904);
 }
 
 @media (prefers-color-scheme: light) {

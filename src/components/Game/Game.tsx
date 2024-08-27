@@ -8,11 +8,7 @@ import { Board } from "../Board/Board";
 
 //! Should be 27 cards in boards
 
-interface IGameProps {
-  resetGame: () => void;
-}
-
-export const Game = (props: IGameProps) => {
+export const Game = () => {
   const [activeDeck, setActiveDeck] = useState<ICard[]>([]);
   const [cardsOnBoard, setCardsOnBoard] = useState<ICard[]>([]);
 
@@ -52,15 +48,6 @@ export const Game = (props: IGameProps) => {
         </div>
 
         <Board cards={cardsOnBoard} />
-      </div>
-      <div>
-        <button
-          onClick={() => {
-            props.resetGame();
-          }}
-        >
-          Reset
-        </button>
       </div>
     </>
   );
