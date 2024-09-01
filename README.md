@@ -1,4 +1,4 @@
-# Solitaire Square
+# 🃏 Solitaire Square
 The goal of this project is to create a working version of solitaire.
 
 ## 🎯 About the Project
